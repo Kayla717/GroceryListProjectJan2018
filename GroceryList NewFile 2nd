@@ -1,0 +1,56 @@
+import java.util.Scanner;
+import static java.lang.System.out;
+
+
+public class GroceryList
+{
+
+   public static void main(String[] args) {
+        String item1;
+        String item2;
+        String item3;
+        int quantityItem1;
+        int quantityItem2;
+        int quantityItem3;
+        float costItem1;
+        float costItem2;
+        float costItem3;
+
+        out.println("What is the first Item?");
+        item1 = keyboard.nextLine( );
+        out.println("What is the second Item?");
+        item2 = keyboard.nextLine( );
+        out.println("What is the third item");
+        item3 = keyboard.nextLine( );
+
+        out.println("How many " + item1 + "?");
+        quantityItem1 = keyboard.nextInt( );
+        keyboard.skip("\n");
+        out.println("How  many" + item2 + "?");
+        quantityItem2 = keyboard.nextInt( );
+        keyboard.skip("\n");
+        out.println("How  many " + item3 + "?");
+        quantityItem3 = keyboard.nextInt( );
+        keyboard.skip("\n");
+
+        out.println("How much does item1 cost?");
+        costItem1 =  keyboard.nextFloat( );
+        keyboard.skip("\n");
+        out.println("How much does item2 cost?");
+        costItem2 = keyboard.nextFloat( );
+         keyboard.skip("\n");
+        out.println("How much does item3 cost?");
+        costItem3 = keyboard.nextFloat( );
+        keyboard.skip("\n");
+        totalGroceryBill = costItem1*quantityItem1;
+        out.println(totalGroceryBill);
+
+        
+
+
+
+
+
+
+
+}}
